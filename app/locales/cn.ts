@@ -257,12 +257,10 @@ const cn = {
     },
   },
   Store: {
-    DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
     Error:  "新的聊天",
     BotHello: `前往公众号：**[你的公众号名字](https://mp.weixin.qq.com/s/k5t8vBoi0lDzFXU9_MdEUQ)** 回复 **密码** 免费获取密码，然后点击左下角[设置](/#/settings)按钮输入密码12138后解锁**免费使用**。
     
-    常见问题与使用说明点击查看👉 **[你可以在这里放个腾讯文档链接](https://x.b1n.net/)** 
+    独家教程👉 **[你可以在这里放个腾讯文档链接](https://x.b1n.net/)** 
     
     卡顿或无响应？可能是用户量太大，[公众号](https://mp.weixin.qq.com/s/k5t8vBoi0lDzFXU9_MdEUQ)`, // 这里是第 172 行    
       Error: "出错了，稍后重试吧",    
