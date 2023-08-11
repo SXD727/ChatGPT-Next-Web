@@ -257,14 +257,10 @@ const cn = {
     },
   },
   Store: {
-    Error:  "新的聊天",
-    BotHello: `前往公众号：**[你的公众号名字](https://mp.weixin.qq.com/s/k5t8vBoi0lDzFXU9_MdEUQ)** 回复 **密码** 免费获取密码，然后点击左下角[设置](/#/settings)按钮输入密码12138后解锁**免费使用**。
-    
-    独家教程👉 **[你可以在这里放个腾讯文档链接](https://x.b1n.net/)** 
-    
-    卡顿或无响应？可能是用户量太大，[公众号](https://mp.weixin.qq.com/s/k5t8vBoi0lDzFXU9_MdEUQ)`, // 这里是第 172 行    
-      Error: "出错了，稍后重试吧",    
-      Prompt: {
+    DefaultTopic: "新的聊天",
+    BotHello: "有什么可以帮你的吗",
+    Error: "出错了，稍后重试吧",
+    Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
       Topic:
         "使用四到五个字直接返回这句话的简要主题，不要解释、不要标点、不要语气词、不要多余文本，如果没有主题，请直接返回“闲聊”",
