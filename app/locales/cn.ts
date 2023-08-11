@@ -258,7 +258,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "有什么可以帮你的吗，教程链接[ChatGPT 内容创作攻略](https://x.b1n.net/)，关注公众号[AI侠客宋学东](https://mp.weixin.qq.com/s/k5t8vBoi0lDzFXU9_MdEUQ)加入群聊",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
