@@ -121,10 +121,9 @@ export function SideBar(props: { className?: string }) {
           GPT：AI侠客版
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          💎公众号：AI侠客宋学东，友情维护。
-          📚查看<a href="https://x.b1n.net">学习教程。</a>
+          💎公众号：<a href="https://mp.weixin.qq.com/s/k5t8vBoi0lDzFXU9_MdEUQ">AI侠客宋学东</a>，友情维护。
+          📚查看<a href="https://x.b1n.net">学习教程</a>。
           🌏访问<a href="https://sxd.cc">个人博客 sxd.cc</a>
-          🌏请关注公众号![AI侠客宋学东](gzh.jpg)加入群聊。</a>
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
