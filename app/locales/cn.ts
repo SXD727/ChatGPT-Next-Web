@@ -259,7 +259,14 @@ const cn = {
   Store: {
     DefaultTopic: "新的聊天",
     BotHello: "有什么可以帮你的吗",
-    Error: "出错了，稍后重试吧",
+    Error:  "新的聊天",
+    BotHello: `前往公众号：**[AI侠客宋学东](https://mp.weixin.qq.com/s/k5t8vBoi0lDzFXU9_MdEUQ)** 回复 **密码** 免费获取密码，然后点击左下角[设置](/#/settings)按钮输入密码 12138 后解锁**免费使用**。
+
+ 独家教程👉 **[ChatGPT 内容创作攻略 飞书云文档](https://x.b1n.net/)** 
+
+卡顿或无响应？可能是用户量太大，可以填写自己的key。
+
+如有问题，从公众号进入群里留言`, // 这里是第 172 行
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
       Topic:
