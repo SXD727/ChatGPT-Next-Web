@@ -124,6 +124,7 @@ export function SideBar(props: { className?: string }) {
           💎公众号：AI侠客宋学东，友情维护。
           📚查看<a href="https://x.b1n.net">学习教程。</a>
           🌏访问<a href="https://sxd.cc">个人博客 sxd.cc</a>
+          📱\n\n关注微信公众号![AI侠客宋学东](gzh.jpg)。</a>
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
